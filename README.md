@@ -5,6 +5,8 @@ program that recognizes hand signs and finger gestures with a simple MLP using t
 <br> 
 ![mqlrf-s6x16](https://user-images.githubusercontent.com/37477845/102222442-c452cd00-3f26-11eb-93ec-c387c98231be.gif)
 
+# USE app2.py BETTER VERSION
+
 This repository contains the following contents.
 * Sample program
 * Hand sign recognition model(TFLite)
