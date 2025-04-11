@@ -117,7 +117,7 @@ def main():
 
                 if mode == 0:
                     prediction = model.predict(np.array([processed_landmarks]), verbose=0)
-                    hand_sign_text = labels[np.argmax(prediction)]
+                    hand_sign_text = labels[np.argmax(np.squeeze(prediction))]
                     image = draw_bounding_rect(image, brect)
                     image = draw_landmarks(image, landmark_list)
                     image = draw_info_text(image, brect, handedness, hand_sign_text)
