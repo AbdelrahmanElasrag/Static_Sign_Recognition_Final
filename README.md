@@ -22,7 +22,7 @@ program that recognizes hand signs and finger gestures with a simple MLP using t
 6. Go back to the FinalStaticRecognition.py and run
     6.6 go back and do step 1 and 2 again to test your model
 
-# Voilla
+# Voilla :blush: 
 
 
 This repository contains the following contents.
