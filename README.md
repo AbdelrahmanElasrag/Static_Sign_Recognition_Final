@@ -5,7 +5,25 @@ program that recognizes hand signs and finger gestures with a simple MLP using t
 <br> 
 ![mqlrf-s6x16](https://user-images.githubusercontent.com/37477845/102222442-c452cd00-3f26-11eb-93ec-c387c98231be.gif)
 
-# USE app2.py BETTER VERSION
+# steps to use the project correctly
+
+1. Run FinalStaticRecognition.py
+    1.1 Enter path of keras model ( model ---> Keypoint_classifier ---> keypoint_classsifier.keras )
+    1.2 Enter path of labels ( model ---> Keypoint_classifier ---> keypoint_classsifier_label.csv )
+
+2. Choose mode ( "n" for prediction, "k" for data collection (saved to captured_signs -note- delete to start from the beginning) )
+
+3. In data collection mode first choose label (0 ~ 9) then press "s" to save current landmarks to the csv ( press "e" to exit )
+
+4. After this go to keypoint_classification.ipynb file to train the model ( make sure to pass both the captured_signs.csv file and the model path ( model ---> Keypoint_classifier ---> keypoint_classsifier.keras ) )
+
+5. Run all cells
+
+6. Go back to the FinalStaticRecognition.py and run
+    6.6 go back and do step 1 and 2 again to test your model
+
+# Voilla
+
 
 This repository contains the following contents.
 * Sample program
